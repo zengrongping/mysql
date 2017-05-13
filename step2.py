@@ -44,26 +44,26 @@ if __name__ == '__main__':
         datas = [prc_line(line) for line in f.readlines()]
     
      for d in datas:l
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(1,'廉萱妍','f',19','loving','computer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(2,'荀良运','m',17','single','computer'))','
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(3,'尹枫起','m',14','loving','computer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(4,'皇甫梦心','f',13','loving','computer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(5,'司马海禧','m',24','loving','computer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(6,'薛珊柏','f',21','single','biology'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(7,'皇甫驰钊','m',21','single','physics'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(8,'骆谷震','m',23','singlecomputer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(9,'吕禧逸','m',18','single','biology'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(10,'公孙子晨','m',20loving','physics'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(11,'王凡康','m',21','loving','physics'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(12,'谢婷桃','f',21','single','computer'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(13,'寿雨华','f',20','single','physics'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(14,'昌菲婧','f',19','loving','new'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(15,'赵梓梓','m',22','loving','biology'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(16,'尉迟彩鑫','f',22','single','new'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(17,'毛骏钊','m',23','single','new'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(18,'吴腾梁','m',17','loving','math'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(19,'庞德骏','m',23','loving','math'))
-         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(20,'梅昭凡','f',18','single','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(1,'廉萱妍','f',19,'loving','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(2,'荀良运','m',17,'single','computer'))','
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(3,'尹枫起','m',14,'loving','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(4,'皇甫梦心','f',13,'loving','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(5,'司马海禧','m',24,'loving','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(6,'薛珊柏','f',21,'single','biology'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(7,'皇甫驰钊','m',21,'single','physics'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(8,'骆谷震','m',23,'singlecomputer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(9,'吕禧逸','m',18,'single','biology'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(10,'公孙子晨','m',20,'loving','physics'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(11,'王凡康','m',21,'loving','physics'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(12,'谢婷桃','f',21,'single','computer'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(13,'寿雨华','f',20,'single','physics'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(14,'昌菲婧','f',19,'loving','new'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(15,'赵梓梓','m',22,'loving','biology'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(16,'尉迟彩鑫','f',22,'single','new'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(17,'毛骏钊','m',23,'single','new'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(18,'吴腾梁','m',17,'loving','math'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(19,'庞德骏','m',23,'loving','math'))
+         cur.execute("insert into student(ID,name,sex,age,emotion_state,dept_name) values(%d,'%s','%s',%d,'%s','%s')"%(20,'梅昭凡','f',18,'single','computer'))
 
 
 
